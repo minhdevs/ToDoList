@@ -34,7 +34,6 @@ html, body {
 }
 
 #lists-container {
-    /* display: flex; */
     height: calc(100% - 150px);
     overflow-y: scroll;
 }
@@ -48,10 +47,18 @@ html, body {
     margin: 10px auto;
 }
 
+.times {
+    display: inline-block;
+}
+
 .completed {
     color: #0085F2;
 }
 
 .undone {
     color: rgb(223, 25, 25);
+}
+
+.status {
+    cursor: pointer;
 }
